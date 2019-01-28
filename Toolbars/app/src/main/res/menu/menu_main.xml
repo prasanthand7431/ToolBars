@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/del"
+        android:title="Delete"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_discard"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/ser"
+        android:title="search"
+        android:orderInCategory="100"
+        android:icon="@mipmap/search"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/loc"
+        android:title="location"
+        android:orderInCategory="100"
+        android:icon="@mipmap/loc1"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/home1"
+        android:title="Home"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/settings1"
+        android:title="Settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/contact1"
+        android:title="Contact Us"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+</menu>
